@@ -1,0 +1,47 @@
+body{
+    text-align:center;
+    padding-top:200px;
+}
+#intro{
+    background:linear-gradient(#FFCA5D,#4C7B4C);
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    z-index:8;
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius:25%;
+}
+#bio{
+margin-top:500px;
+}
+p{
+    max-width:455px;
+    margin: auto;
+}
+#menu{
+list-style:none;
+position:fixed;
+top:10px;
+right:30px;
+z-index:10;
+cursor:pointer;
+}
+.item{
+    float:left;
+    padding-top:5px;
+    padding-left:10px;
+    font-size:23px;
+    font-family:sans-serif;
+    color:darkgoldenrod;
+}
+.item:hover{
+    color:crimson;
+}
+
+#video{
+background:linear-gradient(crimson,white);
+padding-top:20px;
+}
